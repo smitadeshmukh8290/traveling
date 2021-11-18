@@ -1,0 +1,287 @@
+/* All Mobile Sizes (devices and browser)*/
+
+@media only screen and (max-width: 767px) {
+	.loginPageContainer
+	{
+		background-color: #fff;
+		height: auto;
+		box-shadow: 0px 5px 10px rgba(204,204,204,0.1);
+	}
+	.loginPageContainer .side-image
+	{
+		background-color: #f5f5f5;
+		width: 100%;
+		height: 600px;
+	}
+	.login-btn-container button
+	{
+		margin-bottom: 10px;
+	}
+	.home-doctors .common-doctor ul{background:none;}
+    .home-doctors .common-doctor li a{line-height: 223px}
+    .hori-line {
+    height: 198px;
+   
+    }
+    .triangle-3 {
+    bottom: 90px;
+     }
+     .hori-line1 {
+       height: 199px;
+    }
+    #topnav .nav>li{
+      display: inline-grid;
+    }
+    
+   #second-navbar .carousel-caption h1{
+      font-size:14px;
+   } 
+    #second-navbar .carousel-caption h3{  
+        font-size: 9px;
+        
+    }
+     #second-navbar .carousel-caption h2{   
+         font-size: 9px;
+         
+     }
+     #topnav .navbar-inverse .navbar-nav>li>a {
+        color: white;
+        font-size:12px;
+        }
+        .s .nav>li>a {
+         color: black;
+        }
+       .visibility-logo img{
+           display: inline;
+            width: 100%;
+            height: 40px;
+       }
+      #second-navbar .navbar-brand>img {display:none;}
+      .third-navbar {
+            position: relative;
+            top: -89px;
+        }
+         .third-navbar .nav-tabs>li.active>a:hover{color:black;}
+        .third-navbar  .nav-tabs>li>a {
+              color: #151313;
+         }
+         #second-navbar .navbar-toggle .icon-bar {
+            background:white;
+            position: relative;
+            top: -6px;
+       }
+        .s .nav>li>a {
+             color: white; 
+            background: #464242;
+            height: 40px;
+        }
+        #second-navbar .carousel-caption {
+                     top: 60px;
+            }
+        .third-navbar .nav-tabs>li.active>a {color:black}
+       #topnav .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+                color: #f3ecec;
+                display: inline-block;
+                font-size: 12px;
+                
+            }
+          .copyright_des .responsive-pull-center{
+               float: none;
+            }
+        .cards_wrap li {
+            padding: 9px 25px;
+        }
+         .third-navbar .nav-tabs>li{
+             width:20%;
+             font-size:10px;
+         }
+        .s {
+            background: #464242;
+            top: 73px;
+        }
+        .home-doctors .common-doctor .text-content {
+                 padding: 13px 0;
+                height: 73PX;
+                width: 270px;
+        }
+        .list-inline {  margin-left: -37px;}
+        .home-doctors .common-doctor .text-content {  margin-bottom: 32px;}
+}
+
+/* Tablet Portrait (devices and browsers)*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	.loginPageContainer .side-image {
+                background-color: #f5f5f5;
+                width: 100%;
+                height: 600px;
+        }
+	.home-doctors .common-doctor ul{background:none;}
+       .third-navbar {
+            position: relative;
+            top: -75px;
+         }
+         .third-navbar .nav-tabs>li>a {
+              color: #151313;
+         }
+         .third-navbar .nav-tabs>li>a {
+             margin-right: 53px;
+         }
+          .third-navbar .nav-tabs>li.active>a:hover{color:black;}
+        .s {
+            position: absolute;
+            top: 13px;
+            font-size: 10px;
+
+          }
+
+       .home-doctors .common-doctor li a {
+          padding: 8px 8px;
+          line-height: 382px;
+            
+        }
+       .home-doctors .common-doctor li a{line-height: 378px;}
+        .visibility-logo img {
+            display: inline-block;
+            width: 148px;
+       }        
+       .third-navbar .nav-tabs>li.active>a {color:black}
+       .third-navbar .nav-tabs>li{width:20%;}
+}
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+    .home-doctors .common-doctor li a {
+          padding: 8px 8px;
+          line-height: 272px;
+            
+        }
+         .third-navbar .nav-tabs>li.active>a {color: #fdfbfb;}
+}
+
+/* =========================================================== */
+/* all pages responsive css start */
+/* All Mobile Sizes (devices and browser)*/
+
+@media only screen and (max-width: 767px) {
+	.margin-left-box {
+		margin-left: 0;
+	}
+	#holiday-head .holi-btn {
+		margin-left: -52px;
+    }
+    .pagination-right span a {
+        font-size: 14px;
+    }
+    #pagination {
+    padding-top: 0;
+    margin-top: -35px;
+    padding-bottom:0;
+    }
+   .hotels-head .hotel-btn {
+        margin-left: -22px;
+        padding: 7px 8px;
+    }
+    .rupees {
+    font-size: 12px;
+    font-weight: bold;
+    top: 0px;
+    }
+    .review-padding-left{
+        margin-left: -12px;
+        font-size: 12px;
+    }
+    .rating{
+        margin-left: 14px;
+         margin-top:0;
+    }
+    #second-navbar .carousel-inner>.item>img{
+        height: 274px;
+        padding-top: 55px;
+    }
+    .holiday-head .holi-btn {
+       padding: 6px 11px;
+    }
+    .margin-left-par-price {
+        margin-top: 2px;
+    }
+    .hotels-text {
+       font-size: 12px;
+    }
+    .travel-stories .offsetContent {
+    padding:0;
+    margin-left: 0;
+    border-bottom:none;
+    border-top: none;
+    border-right: none;
+    padding-top: 20px;
+    }
+   
+}
+/* =========================================================== */
+/* Tablet Portrait (devices and browsers)*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#holiday-head .holi-btn {
+		margin-left: -52px;
+	}
+	.holiday-head .holi-btn {
+       padding: 6px 9px;
+    }
+    .hotels-head .holi-btn {
+      margin-left: 0;
+    }
+   
+}
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .holiday-head .holi-btn,.hotels-head .holi-btn{
+      padding: 6px 6px;
+    }
+     .hotels-text {
+    padding: 23px 0px 145px 0px;
+    }
+     .rating {
+    margin-left: 24px;
+    }
+   .review-padding-left {
+    margin-left: 7px;
+    }
+}
+/*=================Travel story css start==========================*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+     .travel-stories .story-image {
+        background-color: #f5f5f5;
+        width: 230px;
+        height: 251px;
+    }
+    .icon-top-paddi {
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+    .travel-stories .bottom-name {  width: 230px;}
+    .heading-travel-stories {font-size: 14px;} 
+    .res-font{font-size: 8px;}  
+       .popu-post-img {
+        width: 41px;
+        height: 46px;
+    }
+    .res-heading-size{font-size: 10px;}
+    .resp-padd{padding: 0px 3px 0px 23px;}
+    .font-s-papolar{font-size: 9px;}
+    .Nid-tra-trip-help, .popular-post, .twitter-feeds, .category-tra-story { font-size: 10px; }
+    .twitter-feeds{padding: 7px 0;}
+    .border-height {height: 351px;}
+   .travel-stories .offsetContent {
+        padding: 5px 0 23px 144px;
+        border-top: 1px solid gray;
+        border-bottom:none;
+        border-right:none;
+        padding-top: 20px;
+    }
+    .home-doctors .common-doctor .text-content {
+         padding: 13px 0;
+        height: 73PX;
+        width: 270px;
+    }
+        .home-doctors .common-doctor li a {line-height: 312px;}
+      .home-doctors .common-doctor .text-content {  margin-bottom: 32px;}
+}
+

@@ -1,0 +1,1181 @@
+@font-face {
+  font-family: "Opensans";
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans-Regular.otf") format("opentype"), 
+    url("../fonts/OpenSans-Regular.svg") format("svg"), 
+    url("../fonts/OpenSans-Regular.ttf") format("truetype"), 
+    url("../fonts/OpenSans-Regular.woff") format("woff"), 
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"); 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/Montserrat-Regular.otf") format("opentype"), 
+    url("../fonts/Montserrat-Regular.svg") format("svg"), 
+    url("../fonts/Montserrat-Regular.ttf") format("truetype"), 
+    url("../fonts/Montserrat-Regular.woff") format("woff"), 
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"); 
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	font-family: Opensans;
+	font-weight: normal;   
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    font-weight: 600;
+  
+}
+/* ======================TOP HEADER NAV CSS STRAT==============================*/
+.heading h3{
+    font-size: 21px;
+    padding-bottom: 19px;
+}
+.sub-heading{
+    font-weight: bold;
+    font-size: 17px;
+}
+#topnav .navbar-inverse{
+   background: #68cbbb;;
+    border-color:none;
+    border: none;
+}
+#topnav .navbar-inverse .navbar-nav>.open>a, #topnav .navbar-inverse .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #F16666;
+    height: 34PX;
+}
+#second-navbar .navbar-brand>img {
+    display: block;
+    width: 183px;
+    margin-top: -14px;
+    margin-left: -16px;
+}
+#topnav{
+    z-index: 999;
+    position: relative;
+}
+#topnav .navbar{
+    border-radius:0;
+    min-height: 0;
+}
+#topnav .navbar-inverse .navbar-nav>li>a{
+    color: white;
+     padding-top: 9px; 
+}
+.mobi-p-left{margin-right: 6px;}
+/* =================CAROUSAL CSS STARTt=======================*/
+ .s{
+    top: 93px;
+    z-index:1;
+    position:relative;
+}
+.s .nav>li>a:focus, .s .nav>li>a:hover{
+    background-color: #908b8b;
+}
+#second-navbar .carousel-inner>.item>img{
+    width:1920px;
+    height:853px;
+}
+#second-navbar{
+    position: relative;
+    top: -92px;
+    background: #464242;
+}
+.s .nav>li>a {color:white;}
+.s .navbar>.container .navbar-brand{
+                margin-left: -5px; 
+}
+#second-navbar .carousel-caption{
+    top: 30%;
+}
+.third-navbar .nav-tabs>li>a{color:white;}
+.third-navbar .nav-tabs li:nth-child(1):hover::after{
+    content:"One Way";
+
+}
+.third-navbar .nav-tabs li:nth-child(2):hover::after{
+    content:"Two Way";
+}
+.third-navbar .nav-tabs li:nth-child(3):hover::after{
+    content:"Three Way";
+}
+.third-navbar .nav-tabs li:nth-child(4):hover::after{
+    content:"Four Way";
+}
+.third-navbar .nav-tabs li:nth-child(5):hover::after{
+    content:"only Way";
+}
+.third-navbar .nav-tabs li:nth-child(1)::after,.third-navbar .nav-tabs li:nth-child(2)::after,.third-navbar .nav-tabs li:nth-child(3)::after,.third-navbar .nav-tabs li:nth-child(4)::after,.third-navbar .nav-tabs li:nth-child(5)::after{
+    position: absolute;
+    left: 11px;
+    bottom: -39px;
+    color:#f41658;
+   }
+/* search tab css start */
+#search .btn-danger {
+    background-color: #f41658;
+    border-color: #f41658;
+}
+#search .padding-zero{
+     padding-right: 0;
+    padding-left: 0; 
+}
+#search .btn{
+    margin-left: -15px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px 32px;
+}
+
+#search .form-control{
+    border-radius:0;
+     height: 52PX;
+}
+#search{
+    padding-top: 43px;
+}
+.third-navbar .nav-tabs>li.active>a{
+    border:none;
+    background: none;
+    border-bottom: 4px solid red;
+    color:white;
+}
+.third-navbar .nav>li>a:hover{
+    background: none;
+}
+.third-navbar .nav-tabs{
+    border-bottom: none;
+}
+.third-navbar .nav-tabs>li>a:hover{
+    border:none;
+    border-bottom: 4px solid #f41658;
+}
+.third-navbar  .nav-tabs>li>a{
+    border: none;
+    color: white;
+}
+.third-navbar .nav-tabs>li.active>a:hover {
+   border:none;
+   border-bottom: 4px solid red;
+   color: white;
+}
+.third-navbar{
+    position: relative;
+    top: -132px;
+}
+/* popular-destination css start */
+#popular-destination{
+    margin-top: -57px;
+    margin-top: -7%;
+}
+#popular-destination .thumbnail>img{
+    width:370px;
+   height:485px;
+}
+#popular-destination .thumbnail .caption h2{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+#popular-destination .thumbnail .caption{
+    padding: 8px 22px;
+    text-align: justify;
+}
+#popular-destination .thumbnail,#about-famous-city .thumbnail{  padding:0;}
+.tab1 .nav>li>a,.tab2 .nav>li>a{
+    color: black;
+   
+}
+#about-famous-city{
+    position:relative;
+}
+.tab1 .nav.nav-tabs{
+    border-bottom:none;
+    position: absolute;
+    bottom: 120px;
+}
+.tab2 .nav.nav-tabs{
+    position: absolute;
+    bottom: 125px;
+    border-bottom:none;
+}
+.tab1 .nav>li>a:hover,.tab2 .nav>li>a:hover{color:black;}
+.tab1 .nav>li>a,.tab2 .nav>li>a{
+    background-color: #eee;
+    color:black;
+    
+}
+.city-description{
+   
+    text-align: justify;
+    padding: 14px 21px;
+}
+#about-famous-city .nav-tabs>li{
+       top: -50px;
+}
+#about-famous-city .tab2 li{
+    top: -48px;
+}
+#about-famous-city .thumbnail{
+    border:0;
+    background:#EEEEEE;
+}
+#about-famous-city{
+    position: relative;
+}
+#about-famous-city .thumbnail>img{
+    width:570px;
+    height:200px;
+}
+/* top quotes css start */
+#top-quotes{position:relative;}
+#top-quotes .top-quotes{
+    text-align: justify;
+    background: #F6F6F6;
+    padding: 30px 30px;
+}
+#top-quotes .top-quotes:hover{
+    background: #56C0CD;
+}
+.triangle-down {
+    width: 10%;
+    height: 0;
+    padding-left:10%;
+    padding-top: 10%;
+    overflow: hidden;
+}
+.triangle-down:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-500px;
+    margin-top:-500px;
+    
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-top: 500px solid #4679BD;
+}
+.hori-line{
+    background: #EAA154;
+    height: 160px;
+    width: 5px;
+    position: absolute;
+}
+.hori-line1{
+    background: #56C0CD;
+    height: 158px;
+    width: 5px;
+    position: absolute;
+    right: 17px;
+}
+.triangle-3 {
+    
+    border-left: solid 14px #EAA154;
+    border-bottom: solid 11px transparent;
+    border-top: solid 11px transparent;
+    bottom: 58px;
+    position: absolute;
+  }
+  /*============EXPLORING NEW CITY CSS START ==========================*/
+  #exploring-new-city{
+    padding-top: 27px;
+  }
+  #exploring-new-city img{
+      width:570px;
+      height:150px;
+}
+/*=======================CUSTOMER SUPPORT DESCRIPTIN CSS START================*/
+#description .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+#description .des-border-bottom{
+    border-top: 1px solid #9e9898;
+    border-bottom: 1px solid #aba5a5;
+    padding-bottom: 19px;
+    margin-bottom: 45px;
+    padding-top: 19px;
+    margin-top: 45px;
+}
+#description h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    padding:0 20px;
+}
+#description p{
+    text-align:justify;
+    padding:0 20px;
+}
+    /* footer css start */
+   .cards_wrap{
+    list-style-type: none;
+
+   }
+   .cards_wrap li{
+    float: left;
+    padding: 9px 15px;
+   }
+   .tra-logo img{
+    width: 100%;
+    height: auto;
+   }
+   .cards_wrap i{color:black;}
+   .padding-top-footer {
+    padding-top: 43px;
+}
+.copyright_des span{
+    color:black;
+    font-weight:600;
+}
+.footer1{
+    background: #eae5e5;
+}
+/* travel news css start */
+#travel-colume ul li a{
+    color:black;
+}
+#travel-colume .media-body{
+    color:black;
+}
+#travel-colume ::-ms-clear {
+    display: none;
+  }
+  
+  #travel-colume .form-control-clear {
+    z-index: 10;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  #travel-colume .btn-primary:hover {
+    color: #fff;
+    background-color: #68cbbb;
+    
+}
+#travel-colume .btn-primary{
+    color: #fff;
+    background-color: #f41658;
+}
+#travel-colume h4{
+    padding-bottom: 24px;
+    color: black;
+}
+#travel-colume ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0
+}
+#travel-colume .media-left{
+    padding: 0px 12px;
+    text-align: justify;
+}
+#travel-colume .media-left img{
+    width:70px;
+    height:70px;
+}
+#travel-colume .media-heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+/* best price css start */
+#best-price-package month2 h6{
+    font-weight: 600;
+}
+#best-price-package .border-best .month2 h5{
+    color:#f41658;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 9px;
+}
+#best-price-package .border-best .icon i{
+    color:#f41658;
+    padding-top: 23px;
+    font-size: 51px;
+}
+#best-price-package .border-best .icon{
+    text-align:center;
+}
+#best-price-package{
+    position:relative;
+}
+#best-price-package .border-best .monthly .month2{
+    position: absolute;
+    right: 26px;
+    top: 2px;
+}
+#best-price-package ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+#best-price-package li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+#best-price-package .btn{
+    width:100%;
+    background: #f41658;
+}
+#best-price-package .border-best .monthly {
+    background: #F6F6F6;
+    padding: 22px 25px;
+    text-align: justify;
+}
+.best-para ul li a{color:black;}
+/* <image overlay css */
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/*=============== MEET TEAM CSS START ===============*/
+#meat-team img{
+    width:270px;
+    height:270px;
+}
+.home-doctors {
+ padding: 9px 0 9px;
+ }
+
+.home-doctors h2 {
+    font-weight: normal;
+}
+
+.home-doctors .common-doctor {
+  background-color: #fff;
+}
+.home-doctors .common-doctor figure {
+  overflow: hidden;
+  width: 100%;
+}
+
+.home-doctors img {
+	width: 100%;
+	height: auto;
+}
+
+.home-doctors .common-doctor h5 {
+  margin: 0 0 7px;
+  font-size: 18px;
+	font-weight: 700;
+	color: #3a3c41;
+}
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px;
+}
+.home-doctors .common-doctor .text-content {
+  padding: 19px 14px 13px;
+  background:#EEEEEE;
+}
+.home-doctors.doctors-var-two {
+  text-align: left;
+  background-color: #fff;
+}
+.home-doctors.doctors-var-two .slogan-section {
+  text-align: left;
+}
+.home-doctors.doctors-var-two .common-doctor {
+  background-color: transparent;
+}
+.home-doctors.doctors-var-two .common-doctor .for-border {
+  display: none;
+}
+.home-doctors.doctors-var-two .common-doctor .text-content {
+  padding: 20px 0 20px;
+}
+.home-doctors.doctors-var-two .text-center {
+  text-align: left;
+}
+
+.slogan-section {
+	text-align: center;
+}
+
+.home-doctors .common-doctor .for-border {
+	margin-bottom: 20px;
+}
+
+.for-border {
+	height: 11px;
+	width: 100%;
+	
+	border: none;
+}
+
+.home-doctors .common-doctor h5 small {
+	color: #008fd5;
+	font-weight: bold;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.home-doctors .common-doctor ul{
+	position: absolute;
+    top: 28px;
+    left: 20px;
+    text-align: center;
+    margin-top: -30em;
+    opacity: 0;
+    z-index: 1;
+    background: #5A5A5A;
+    width: 90%;
+    height: 271px;
+}
+
+.home-doctors .common-doctor li a {
+	background: #fff;
+    color: black;
+    border-radius: 50%;
+    width: 68px;
+    height: 105px;
+    padding: 13px 13px;
+   line-height: 261px;
+}
+.home-doctors .common-doctor li a:hover{
+	background:#f41658;
+    color: white;
+}
+
+.doc-img{
+	 /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1, 1); 
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1, 1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1, 1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
+
+.doc-item:hover .doc-img{
+	 /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1.2, 1.2);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1.2, 1.2);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1.20, 1.20);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+
+  opacity: 0.7;
+}
+
+.doc-item:hover .social-lists{
+	margin-top: -2em;
+	opacity: 1;
+}
+.home-doctors .common-doctor li a i{
+    width:23px;
+    height:23px;
+}
+
+.visibility-logo img{display:none;}
+
+/*=============css for sign in page======================*/
+.login-bg
+{
+	background-color: #f8f8f8;
+}
+body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* signIn Up page */
+.dispTable
+{
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	
+}
+.dispTableCell
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgba(0,0,0,0.6);
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;   
+    box-shadow: unset; 
+ 
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.loginPageContainer
+{
+	background-color: #fff;
+	height: 600px;
+	box-shadow: 0px 5px 10px rgba(204,204,204,0.1);
+}
+.loginPageContainer .side-image
+{
+	background-color: #f5f5f5;
+	width: 440px;
+	height: 600px;
+}
+
+.no-padding
+{
+	padding: 0px;
+}
+.logo-container
+{
+	text-align: center;
+	padding: 20px 20px 0px 20px;
+	
+}
+.logo-container img
+{
+	width: 250px;
+	text-align: center;
+}
+.form-control.input-form-padding
+{
+	padding: 25px 12px;
+}
+.form-text-title
+{
+	text-align: center;
+	padding: 0px 30px 30px;
+}
+.check-box-css
+{
+	margin-top: 0px;
+}
+.btn-login {
+    color: #fff;
+    background-color: #f96868;
+    border-color: #f96868;
+}
+.full-size
+{
+	width: 100%;
+}
+.side-image img
+{
+	height: 100%;
+}
+.padding-10
+{
+    padding: 10px;
+}
+.login-btn-container
+{
+	padding-top: 30px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.btn-login:focus, .btn-login:hover, .btn-login:active
+{
+	background-color: #fa4747;
+    border-color: #fa4747;
+}
+.login-btn-container button
+{
+	margin-bottom: 10px;
+}
+.theme-color
+{
+  color: #f96868;
+}
+.logo-container h1
+{
+	padding: 20px 0px;
+}
+
+.login-bg-img
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Sign Up page */
+.signUp-container
+{
+  padding: 20px 20px 0px 20px;
+}
+.signUp-container img
+{
+	width: 250px;
+	text-align: center;
+	padding-top: 10px;
+}
+/* ===================================HOLIDAY PAGE CSS START======================== */
+.second-nav-black .nav>li>a {
+    color: #1f1d1d;
+} 
+  .pagination-right ul{
+    float: right;
+    padding: 0;
+    background: none;
+ }
+ .pagination-right ul li a, .pagination-right span a{
+     color:black;
+     font-size: 18px;
+    }
+.pagination-right{
+    background: #EFEFEF;
+    padding: 15px 0;
+    margin-left: 13px;
+    margin-right: 15px;
+}
+#select-option-city .mar-right-left{
+    margin-left:0;
+    padding-left:0;
+}
+#select-option-city .form-horizontal .control-label {
+    text-align: left;
+}
+.margin-left-box{
+    margin-left: -34px;
+    color: black;
+    font-weight: 900;
+}
+#pagination{
+   padding-top: 26px;
+    padding-bottom: 38px
+}
+.holiday-head .holi-btn{
+    margin-left: -53px;
+    margin-top: 31px;
+    padding: 6px 19px;
+    background-color: #f41658;
+    border-color: #f41658;
+}
+.holiday-head .holi-btn:hover,.hotels-head .holi-btn:hover,#search .btn-danger:hover{background: #68cbbb;}
+.hotels-head .holi-btn{
+    margin-top: 31px;
+    padding: 6px 19px;
+    margin-left: 27px;
+    background-color: #f41658;
+    border-color: #f41658;
+}
+.rupees{
+    color: #f41658;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+}
+.margin-left-par-price {
+    margin-left: -40px;
+    margin-top: -10px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.holiday-head .thumbnail{
+    padding:0;
+    background:none;
+}
+.holiday-head{position:relative;}
+.sigp-padding{
+    color: black;
+    font-weight: bold;
+}
+.paddi-right-icon{padding-right: 9px;}
+.holiday-text {
+    padding: 24px 5px 135px 5px;
+}
+.holiday-text .imgae-icon{
+    width: 30px;
+    height: auto;
+    padding: 13px 6px;
+}
+.holiday-text .margin-left-icon{
+    margin-left: -7px;
+}
+.diag {
+    width: 200px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #f41658;
+    text-align: center;
+    position: absolute;
+}
+
+.diag {
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    left: -46px;
+    top: 34px;
+}
+.posi-label{
+            position:relative;
+        	 overflow:hidden;
+        	 width:100%;
+}
+
+.line-height{
+    background: white;
+    width: 2px;
+    margin-top: 9px;
+    height: 17px
+}
+/*============================FLIGHT DEALS CSS START========================*/
+#flight-nav .nav-tabs.nav-justified>li>a {
+    border-bottom: none;
+    color: black;
+}
+#flight-nav .nav-tabs.nav-justified>li {
+    border: 1px solid #EFEFEF;
+}
+#flight-nav .nav-tabs>li>a:hover {
+     border-top: 3px solid #f41658;
+}
+#flight-nav .nav-tabs.nav-justified>li.active{ border-top: 3px solid #f41658;}
+#flight-nav .nav-tabs>li>a{border-radius:0;}
+#flight-nav .nav>li>a:focus, .nav>li>a:hover{background-color: transparent;}
+#flight-nav{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.flight-desc-page{margin-top: 35px;}
+/* =====================HOTELS CSS START================== */
+.rating{
+    margin-left: 81px;
+    margin-top: 10px;
+}
+.rating > span {
+    position: relative;
+    color:#BCBCBC;
+ }
+  .rating span:nth-child(1):before,.rating span:nth-child(2):before,.rating span:nth-child(3):before,.rating span:nth-child(4):before{color:#F1A452;}
+  .rating > span:before,
+  .rating > span:hover ~:before {
+     content: "\2605";
+     position: absolute;
+}
+.hotels-text{padding: 24px 17px 145px 17px;} 
+.holiday-head .hotel-btn{
+    margin-left: -45px;
+    margin-top: 15px;
+    padding: 11px 29px
+} 
+ .entire-margin{margin-top: -9px;} 
+ .hotel-mar-left{margin-top: -6px;}
+.review-padding-left{
+     margin-left: 61px;
+}
+.hotels-head .thumbnail>img {
+    width:571px;
+    height:218px;
+    object-fit: cover;
+}
+.hotels-head .thumbnail .posi-label img{
+    width: 571px;
+    height: 218px;
+}
+.hotels-head .thumbnail{padding:0;}
+.holiday-head .thumbnail>img{
+    width:370px;
+    height:218px;
+}
+.holiday-head .thumbnail .posi-label img{
+     width:370px;
+    height:218px;
+}
+/* ==============================activity Deals css ==================== */
+.activity-head .thumbnail>img {
+    width:369px;
+    height:218px;
+}
+.activity-head .thumbnail .posi-label img{
+    width: 369px;
+    height: 218px;
+}
+.activity-head .thumbnail{padding:0;}
+.activity-rating{
+    position:relative;
+    font-size: 20px;
+}
+.activity-rating > span:before{
+     content: "\2605";
+     position: absolute;
+     color:#F1A452;
+}
+.activity-head .btn-danger{
+    margin-left: 65%;
+    margin-top: -23%;
+    background:#f41658;
+}
+.activity-head .btn-danger:hover{background:#68cbbb;}
+/*.activity-head .btn:hover{background:#68cbbb;}*/
+.font-size-panjim{
+    font-size: 15px;
+}
+.font-size-per-person{
+    font-size: 17px !important;
+    margin-top: -5px;
+}
+.location-left-mar{padding-right: 12px;}
+/* ==================================Travel story css==================================== */
+.p-color{
+    color:black;
+    font-weight: bold;}
+.travel-stories .story-image{
+    background-color: #f5f5f5;
+    width: 270px;
+    height: 291px;
+}
+.story-bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.travel-stories .bottom-name{
+    background: #242A36;
+    height: 59px;
+    width: 270px;
+    color: white;
+    text-align: center;
+    line-height: 49px;
+    font-size: 17px;
+}
+.travel-stories .offsetContent{
+    padding: 27px 30px 26px 133px;
+    margin-left: -1px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.travel-stories .StoryParacontainer{text-align: justify;}
+.cale-left{padding-right: 5px;}
+.cale-right{padding-left: 22px;}
+.heading-travel-stories{
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.content-top-paddi{padding-top: 2%;}
+.icon-top-paddi{padding-bottom: 32px;}
+.mobi-red{color:#F96768;;}
+.Nid-tra-trip-help,.popular-post,.twitter-feeds,.category-tra-story{
+    border: 1px solid gray;
+    padding: 25px 12px 14px 15px;
+    margin-bottom: 10%;
+}
+.border-height{height: 325px;}
+.popu-post-img{
+    background-color: #f5f5f5;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px
+}
+.font-s-papolar{font-size:12px;}
+.heading-tra-content{
+    color:black;
+    font-weight:bold;
+    padding: 0 0 11px 0;
+    font-size: 16px;
+}
+.taveltrip-red{color:#F96768;}
+.list-twitter{
+    color:#2588B2;
+    text-indent: -30px;
+}
+.img-para{margin-top:3%;}
+.twitter-feeds ul{list-style-type: none;}
+.left-popu-head{padding: 0 0 11px 8px;}
+/* ====================travel-guide=================== */
+.f-row img,.s-row img,.size-img img{
+    width:270px;
+    height:291px;
+    padding-bottom: 30px;
+}
+.last-img-size img{
+    width:570px;
+    height:291px;
+    padding-bottom: 30px;
+}
+.travel-guide img,#popular-destination .thumbnail>img,#second-navbar .carousel-inner>.item>img,#about-famous-city .thumbnail>img,#travel-colume .media-left img
+,#travel-colume .media-left img,#meat-team img,.holiday-head .thumbnail>img,.holiday-head .thumbnail .posi-label img,.activity-head .thumbnail>img,#second-navbar .carousel-inner>.item>img 
+,.lansdone-locatio img,.carousal-head .carousel-inner>.item>img,#exploring-new-city img,.travel-imsurance-img .thumbnail>img {
+    object-fit:cover;
+    object-position:center;
+}
+.travel-guide .img-down-para{
+    text-align: justify;
+}
+/* ==================travel-overviwe================== */
+.carousal-head .carousel-inner>.item>img {
+    width:1170px;
+    height:382px;
+}
+.caro-bellow-para p{
+    padding: 44px 0px 15px 0px;
+    text-align: justify;
+    height: 339px;
+    overflow-y: scroll;
+}
+.lansdone-locatio img{
+    width: 1170px;
+    height:418px;
+}
+.usefull-tips .tab {
+    float: left;
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 300px;
+}
+.usefull-tips .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.usefull-tips .tab button:hover {
+    background-color: #DBDBDB;
+}
+.usefull-tips .tab button.active {
+    background-color: #DBDBDB;
+}
+.usefull-tips .tabcontent {
+    float: left;
+    padding: 24px 35px 0 38px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    text-align: justify;
+    overflow-y: scroll;
+}
+.usefull-tips{position:relative;}
+.usefull-tips .arrow-right,.usefull-tips .arrow-right2,.usefull-tips .arrow-right3{
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #DBDBDB;
+}
+.usefull-tips .arrow-right{
+    position: absolute;
+    top: 17px;
+    left: 30%;
+}
+.usefull-tips .arrow-right2{
+    position: absolute;
+    top: 89px;
+    left: 30%;
+}
+.usefull-tips .arrow-right3{
+    position: absolute;
+    top: 157px;
+    left: 30%;
+}
+.lansdone-locatio{padding-bottom: 5%;}
+/* ====================insurance===================== */
+.big-heading{
+    color: black;
+    font-size: 31px;
+}
+.padding-zero input {
+text-align:center;
+}
+.serch-calendar-icon{
+    position: absolute;
+    right: 9px;
+    top: 22px;
+}
+.why-tr-insurance p{
+    text-align:justify;
+    text-align: justify;
+    height: 300px;
+    overflow-y: scroll;
+}
+.inurance-serch-row{margin-left:0;}
+.heading-why{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+.travel-imsurance-img .thumbnail>img{
+    width:370px;
+    height:218px;
+}
+.travel-imsurance-img .thumbnail .caption h5{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.travel-imsurance-img .thumbnail{padding:0; }
+.travel-imsurance-img .btn{
+    padding: 4px 31px;
+}
+.travel-imsurance-img .caption{
+    padding: 12px 25px 17px;
+    text-align: justify;
+}
+.tra-logo{
+	text-align: center;
+}
+@media (max-width: 768px){
+	.holiday-head .thumbnail .posi-label img, .holiday-head .thumbnail > img{
+		width:100%;
+	}
+	.tra-logo img{
+		width: 30%;
+	}
+}
